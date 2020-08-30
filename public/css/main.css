@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-family: 'Heebo';
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cccccc;
+}
+
+#canvas {
+    min-height: 700px;
+    min-width: 1500px;
+    background-color: white;
+    cursor: crosshair;
+
+}
+
+.don {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.don button {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.don button > img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.don a {
+    margin-top: 10px;
+    font-size: 10px;
+    color: black;
+}
